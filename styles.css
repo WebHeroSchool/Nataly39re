@@ -4,3 +4,63 @@ font-family: 'Nunito', sans-serif;
 p {
 font-family: 'Roboto', sans-serif;
 }
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  margin: auto;
+  width: 80%;
+  border: dashed 1px red;
+}
+
+.doc-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 40px 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  padding: 0 13px;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
+  }
+
+  .content {
+  display: flex;
+  justify-content: space-between;
+  border: dashed 1px red;
+  }
+
+  .image_section {
+   padding: 133px 0;
+   }
+
+
+  .main_section {
+  display: flex;
+  justify-content: space-between;
+  }
+
+  .main_section__title {
+   padding: 20px 0;
+  }
+
+  .main_section__text {
+  padding: 20px 0;
+  }
+
+   .main_section__button {
+  padding: 20px 0 0 0;
+  }
