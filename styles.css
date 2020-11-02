@@ -51,13 +51,13 @@ body {
 }
 
 .main-section__title {
-   padding: 230px 0 20px 0;
-   display: flex;
-   align-items: center;
-   width: 567px;
-   height: 255px;
-   top: 318px;
-   left: 195px;
+  padding: 230px 0 20px 0;
+  display: flex;
+  align-items: center;
+  width: 567px;
+  height: 255px;
+  top: 318px;
+  left: 195px;
 }
 
 .main-section__text {
