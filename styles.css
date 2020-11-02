@@ -4,3 +4,74 @@ font-family: 'Nunito', sans-serif;
 p {
 font-family: 'Roboto', sans-serif;
 }
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  margin: auto;
+  width: 80%;
+}
+
+.doc-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 40px 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  padding: 0 13px;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image_section {
+  padding: 133px 133px 133px 133px;
+}
+
+.main_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-section__title {
+  padding: 230px 0 20px 0;
+  display: flex;
+  align-items: center;
+  width: 567px;
+  height: 255px;
+  top: 318px;
+  left: 195px;
+}
+
+.main-section__text {
+  padding: 20px 0;
+  width: 455px;
+  height: 52px;
+  top: 613px;
+  left: 195px;
+}
+
+.main-section__button {
+  padding: 20px 0 0 0;
+  width: 270px;
+  height: 57px;
+  top: 706px;
+  left: 196px;
+}
