@@ -34,32 +34,44 @@ body {
 
 .menu__item:last-child {
   padding-right: 0;
-  }
+}
 
-  .content {
+.content {
   display: flex;
   justify-content: space-between;
-  border: dashed 1px red;
-  }
+}
 
-  .image_section {
-   padding: 133px 0;
-   }
+.image_section {
+  padding: 133px 133px 133px 133px ;
+}
 
-
-  .main_section {
+.main_section {
   display: flex;
   justify-content: space-between;
-  }
+}
 
-  .main_section__title {
-   padding: 20px 0;
-  }
+.main-section__title {
+   padding: 230px 0 20px 0;
+   display: flex;
+   align-items: center;
+   width: 567px;
+   height: 255px;
+   top: 318px;
+   left: 195px;
+}
 
-  .main_section__text {
+.main-section__text {
   padding: 20px 0;
-  }
+  width: 455px;
+  height: 52px;
+  top: 613px;
+  left: 195px;
+}
 
-   .main_section__button {
+.main-section__button {
   padding: 20px 0 0 0;
-  }
+  width: 270px;
+  height: 57px;
+  top: 706px;
+  left: 196px;
+}
