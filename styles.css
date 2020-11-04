@@ -1,5 +1,5 @@
 h1 {
-font-family: 'Nunito', sans-serif;
+font-family: 'pt_serif', sans-serif;
 }
 p {
 font-family: 'Roboto', sans-serif;
@@ -24,7 +24,7 @@ body {
   position:relative;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  font: bold 24px/31px 'pt_serif', arial, helvetica, sans-serif;
 }
 
 .logo__circle {
@@ -58,6 +58,7 @@ body {
 
 .menu__item {
   padding: 0 13px;
+  font: bold 18px/21px 'pt_serif', arial, helvetica, sans-serif;
 }
 
 .menu__item:last-child {
@@ -86,6 +87,7 @@ body {
   height: 255px;
   top: 318px;
   left: 195px;
+  font: bold 66px/87px 'pt_serif', arial, helvetica, sans-serif;
 }
 
 .main-section__text {
@@ -94,6 +96,7 @@ body {
   height: 52px;
   top: 613px;
   left: 195px;
+  font: bold 22px/26px 'Roboto', arial, helvetica, sans-serif;
 }
 
 .main-section__button {
@@ -102,4 +105,5 @@ body {
   height: 57px;
   top: 706px;
   left: 196px;
+  font: bold 18px/21px 'Roboto', arial, helvetica, sans-serif;
 }
