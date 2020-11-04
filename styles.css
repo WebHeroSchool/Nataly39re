@@ -1,8 +1,8 @@
 h1 {
-font-family: 'Nunito', sans-serif;
+  font-family: 'pt_serif', sans-serif;
 }
 p {
-font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -20,7 +20,31 @@ body {
 }
 
 .logo {
+  position: relative;
   padding: 40px 0;
+  padding-left: 44px;
+  font: bold 24px/31px 'pt_serif', arial, helvetica, sans-serif;
+}
+
+.logo__circle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #c8dbfb;
+}
+
+.logo__circle_color_dark-blue {
+  background: #0056ec;
 }
 
 .menu {
@@ -30,6 +54,7 @@ body {
 
 .menu__item {
   padding: 0 13px;
+  font: bold 18px/21px 'Roboto', arial, helvetica, sans-serif;
 }
 
 .menu__item:last-child {
@@ -58,6 +83,7 @@ body {
   height: 255px;
   top: 318px;
   left: 195px;
+  font: bold 66px/87px 'pt_serif', arial, helvetica, sans-serif;
 }
 
 .main-section__text {
@@ -66,6 +92,7 @@ body {
   height: 52px;
   top: 613px;
   left: 195px;
+  font: bold 22px/26px 'Roboto', arial, helvetica, sans-serif;
 }
 
 .main-section__button {
@@ -74,4 +101,5 @@ body {
   height: 57px;
   top: 706px;
   left: 196px;
+  font: bold 18px/21px 'Roboto', arial, helvetica, sans-serif;
 }
