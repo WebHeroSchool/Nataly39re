@@ -1,8 +1,8 @@
 h1 {
-font-family: 'pt_serif', sans-serif;
+  font-family: 'pt_serif', sans-serif;
 }
 p {
-font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -17,7 +17,6 @@ body {
 .doc-header {
   display: flex;
   justify-content: space-between;
-
 }
 
 .logo {
@@ -36,14 +35,12 @@ body {
   height: 28px;
   border-radius: 50%;
   opacity: 0.7;
-
 }
 
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
   background: #c8dbfb;
-
 }
 
 .logo__circle_color_dark-blue {
@@ -57,7 +54,7 @@ body {
 
 .menu__item {
   padding: 0 13px;
-  font: bold 18px/21px 'pt_serif', arial, helvetica, sans-serif;
+  font: bold 18px/21px 'Roboto', arial, helvetica, sans-serif;
 }
 
 .menu__item:last-child {
