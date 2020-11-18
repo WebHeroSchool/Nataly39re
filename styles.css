@@ -15,7 +15,6 @@ body {
 }
 
 .doc-header {
-  /*margin-bottom: 206px;*/
   margin-bottom: 130px;
   display: flex;
   justify-content: space-between;
