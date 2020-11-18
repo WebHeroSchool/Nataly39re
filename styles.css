@@ -15,7 +15,8 @@ body {
 }
 
 .doc-header {
-  margin-bottom: 206px;
+  /*margin-bottom: 206px;*/
+  margin-bottom: 130px;
   display: flex;
   justify-content: space-between;
 }
@@ -101,7 +102,7 @@ body {
 }
 
 .main {
-  padding: 0 63% 200px 0;
+  padding: 76px 63% 250px 0;
   background: top right no-repeat url(img/mainImg.svg);
 }
 
@@ -117,17 +118,20 @@ body {
 
 .main__text {
   margin: 0 0 41px 0;
+  width: 455px;
   font: bold 22px/26px 'Roboto', arial, helvetica, sans-serif;
 }
 
 .main__button {
   display: inline-block;
+  width: 270.75px;
+  height: 57px;
   font: bold 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
   background: #0056ec;
   text-decoration: none;
   border-radius: 4px;
-  padding: 14px 16px;
+  padding: 16px 22px;
   transition: opacity 0.5s;
 }
 
