@@ -8,18 +8,15 @@ p {
 body {
   margin: 0;
 }
-
 .wrapper {
   margin: auto;
   width: 80%;
 }
-
 .doc-header {
   margin-bottom: 130px;
   display: flex;
   justify-content: space-between;
 }
-
 .logo {
   position: relative;
   padding: 40px 0;
