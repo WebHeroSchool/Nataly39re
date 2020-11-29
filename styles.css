@@ -238,22 +238,22 @@ body {
 
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
-}
+  }
 
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
-}
+ }
 
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
-}
+ }
 
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 0;
-}
+ }
 
   .menu__btn > span,
   .menu__btn > span::before,
@@ -266,7 +266,7 @@ body {
   }
 
   .menu__item {
-    transition-duration: .25s;
+    transition-duration: 0.25s;
   }
 
   .main {
