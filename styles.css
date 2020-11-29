@@ -1,6 +1,7 @@
 h1 {
   font-family: 'pt_serif', sans-serif;
 }
+
 p {
   font-family: 'Roboto', sans-serif;
 }
@@ -25,7 +26,6 @@ body {
   height: 32px;
   font: bold 24px/31px 'pt_serif', arial, helvetica, sans-serif;
 }
-
 .logo__circle {
   position: absolute;
   left: 0;
