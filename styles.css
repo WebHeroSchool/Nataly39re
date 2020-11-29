@@ -167,7 +167,7 @@ body {
 
   /* скрываем чекбокс */
   #menu__toggle {
-   opacity: 0;
+    opacity: 0;
   }
 
   /* стилизуем кнопку */
@@ -216,8 +216,8 @@ body {
     list-style: none;
     text-align: center;
     background-color: #fff;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
- }
+    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+  }
 
   /* элементы меню */
   .menu__item {
