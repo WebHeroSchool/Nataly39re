@@ -217,6 +217,7 @@ body {
     text-align: center;
     background-color: #fff;
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.25s;
   }
 
   /* элементы меню */
@@ -226,6 +227,7 @@ body {
     font: bold 30px/35.16px 'Roboto', arial, helvetica, sans-serif;
     color: #000;
     text-decoration: none;
+    transition-duration: 0.25s;
   }
 
   .menu__item::after {
@@ -243,12 +245,12 @@ body {
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
- }
+  }
 
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
- }
+  }
 
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
@@ -261,13 +263,9 @@ body {
     transition-duration: 0.25s;
   }
 
-  .menu__box {
+  /*.menu__box, .menu__item {
     transition-duration: 0.25s;
-  }
-
-  .menu__item {
-    transition-duration: 0.25s;
-  }
+  }*/
 
   .main {
     padding: 86% 0 0;     /* подгон в Pixel Perfect под макет */
@@ -299,10 +297,6 @@ body {
 @media (min-width: 770px) and (max-width: 1440px) {
   .doc-header {
     margin-bottom: 83px;
-  }
-
-  .menu__item {
-    font: bold 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .main {
