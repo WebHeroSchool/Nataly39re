@@ -158,19 +158,19 @@ body {
   }
 
   .logo__circle {
-   visibility: visible;
+    visibility: visible;
   }
 
   .hamburger-menu {
-   display: initial;
+    display: initial;
   }
 
-/* скрываем чекбокс */
+  /* скрываем чекбокс */
   #menu__toggle {
-  opacity: 0;
- }
+   opacity: 0;
+  }
 
-/* стилизуем кнопку */
+  /* стилизуем кнопку */
   .menu__btn {
     display: flex; /* используем flex для центрирования содержимого */
     align-items: center;  /* центрируем содержимое кнопки */
@@ -181,7 +181,7 @@ body {
     z-index: 1;
   }
 
-/* добавляем "гамбургер" */
+  /* добавляем "гамбургер" */
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
@@ -202,7 +202,7 @@ body {
     top: 8px;
   }
 
-/* контейнер меню */
+  /* контейнер меню */
   .menu__box {
     display: block;
     position: fixed;
@@ -216,10 +216,10 @@ body {
     list-style: none;
     text-align: center;
     background-color: #fff;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
  }
 
-/* элементы меню */
+  /* элементы меню */
   .menu__item {
     display: block;
     padding: 12px 24px;
@@ -233,26 +233,26 @@ body {
   }
 
   .menu__item:hover {
-    background-color: #CFD8DC;
+    background-color: #cfd8dc;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
-  transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
   #menu__toggle:checked ~ .menu__btn > span::before {
-  top: 0;
-  transform: rotate(0);
+    top: 0;
+    transform: rotate(0);
 }
 
   #menu__toggle:checked ~ .menu__btn > span::after {
-  top: 0;
-  transform: rotate(90deg);
+    top: 0;
+    transform: rotate(90deg);
 }
 
   #menu__toggle:checked ~ .menu__box {
-  visibility: visible;
-  left: 0;
+    visibility: visible;
+    left: 0;
 }
 
   .menu__btn > span,
@@ -262,7 +262,7 @@ body {
   }
 
   .menu__box {
-    transition-duration: .25s;
+    transition-duration: 0.25s;
   }
 
   .menu__item {
@@ -297,7 +297,6 @@ body {
 }
 
 @media (min-width: 770px) and (max-width: 1440px) {
-
   .doc-header {
     margin-bottom: 83px;
   }
