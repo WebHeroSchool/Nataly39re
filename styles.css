@@ -144,93 +144,93 @@ body {
 }
 
 @media (max-width: 768px) {
+  .doc-header {
+    margin-bottom: 9px;
+  }
 
-.doc-header {
-  margin-bottom: 9px;
-}
-
-.menu {
-  display: none;
-}
-
-.hamburger-menu {
-  visibility: visible;
-}
+  .menu {
+    display: none;
+  }
 
  .logo {
-  visibility: hidden;
-  padding: 24px 0;
-}
+    visibility: hidden;
+    padding: 24px 0;
+  }
 
 .logo__circle {
   visibility: visible;
-}
+ }
 
 .hamburger-menu {
   display: initial;
-}
+ }
+
     /* скрываем чекбокс */
 #menu__toggle {
   opacity: 0;
-}
-/* стилизуем кнопку */
-.menu__btn {
-  display: flex; /* используем flex для центрирования содержимого */
-  align-items: center;  /* центрируем содержимое кнопки */
-  position: fixed;
-  /*top: 20px;
-  left: 20px;*/
-  width: 28px;
-  height: 28px;
-  cursor: pointer;
-  z-index: 1;
-}
-/* добавляем "гамбургер" */
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  background-color: #0056ec;
-}
-.menu__btn > span::before {
-  content: '';
-  top: -8px;
-}
-.menu__btn > span::after {
-  content: '';
-  top: 8px;
-}
-/* контейнер меню */
-.menu__box {
-  display: block;
-  position: fixed;
-  visibility: hidden;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 170px 0;    /* на макете 186px */
-  list-style: none;
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-}
-/* элементы меню */
-.menu__item {
-  display: block;
-  padding: 12px 24px;
-  font: bold 30px/35.16px 'Roboto', arial, helvetica, sans-serif;
-  color: #000;
-  text-decoration: none;
-}
+ }
 
-.menu__item::after {
-  visibility: hidden;
-}
+/* стилизуем кнопку */
+ .menu__btn {
+   display: flex; /* используем flex для центрирования содержимого */
+   align-items: center;  /* центрируем содержимое кнопки */
+   position: fixed;
+   width: 28px;
+   height: 28px;
+   cursor: pointer;
+   z-index: 1;
+ }
+
+/* добавляем "гамбургер" */
+ .menu__btn > span,
+ .menu__btn > span::before,
+ .menu__btn > span::after {
+   display: block;
+   position: absolute;
+   width: 100%;
+   height: 3px;
+   background-color: #0056ec;
+ }
+
+ .menu__btn > span::before {
+   content: '';
+   top: -8px;
+ }
+
+ .menu__btn > span::after {
+   content: '';
+   top: 8px;
+ }
+
+/* контейнер меню */
+ .menu__box {
+   display: block;
+   position: fixed;
+   visibility: hidden;
+   top: 0;
+   left: -100%;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 170px 0;    /* на макете 186px */
+   list-style: none;
+   text-align: center;
+   background-color: #fff;
+   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+ }
+
+/* элементы меню */
+ .menu__item {
+   display: block;
+   padding: 12px 24px;
+   font: bold 30px/35.16px 'Roboto', arial, helvetica, sans-serif;
+   color: #000;
+   text-decoration: none;
+ }
+
+ .menu__item::after {
+   visibility: hidden;
+ }
 
 .menu__item:hover {
   background-color: #CFD8DC;
@@ -255,40 +255,45 @@ body {
   left: 0;
 }
 
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-  transition-duration: .25s;
-}
+ .menu__btn > span,
+ .menu__btn > span::before,
+ .menu__btn > span::after {
+   transition-duration: .25s;
+ }
 
-.menu__box {
-  transition-duration: .25s;
-}
-.menu__item {
-  transition-duration: .25s;
-}
-.main {
-  padding: 86% 0 0;     /* подгон в Pixel Perfect под макет */
-  text-align: center;
-  background-size: 95%; /* подгон в Pixel Perfect под макет */
-  background-position: top center;
-}
-.main__title {
-  margin-bottom: 44px;
-  font: bold 30px/39px 'pt_serif', arial, helvetica, sans-serif;
-}
-.main__text {
-  margin-bottom: 25px;
-  width: 275px;
-  height: 57px;
-  font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
-}
-.main__button {
-  width: 209px;
-  height: 44px;
-  padding: 14px 16px;
-  font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
-}
+ .menu__box {
+   transition-duration: .25s;
+ }
+
+ .menu__item {
+   transition-duration: .25s;
+ }
+
+ .main {
+   padding: 86% 0 0;     /* подгон в Pixel Perfect под макет */
+   text-align: center;
+   background-size: 95%; /* подгон в Pixel Perfect под макет */
+   background-position: top center;
+ }
+
+ .main__title {
+   margin-bottom: 44px;
+   font: bold 30px/39px 'pt_serif', arial, helvetica, sans-serif;
+ }
+
+ .main__text {
+   margin-bottom: 25px;
+   width: 275px;
+   height: 57px;
+   font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
+ }
+
+ .main__button {
+   width: 209px;
+   height: 44px;
+   padding: 14px 16px;
+   font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
+ }
 }
 
 
@@ -303,7 +308,6 @@ body {
 
   .main {
     padding: 76px 60% 250px 0;
-    /*: 86% 0 0; */
     background-size: 55%; /* подгон в Pixel Perfect под макет */
   }
 
