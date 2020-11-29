@@ -258,13 +258,6 @@ body {
     left: 0;
   }
 
-  /* .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after,
-  .menu__box, .menu__item  {
-    transition-duration: 0.25s;
-  }  */
-
   .main {
     padding: 86% 0 0;     /* подгон в Pixel Perfect под макет */
     text-align: center;
