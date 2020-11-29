@@ -162,11 +162,11 @@ body {
   }
 
   .hamburger-menu {
-    display: initial;
- }
+   display: initial;
+  }
 
 /* скрываем чекбокс */
-#menu__toggle {
+  #menu__toggle {
   opacity: 0;
  }
 
@@ -236,21 +236,21 @@ body {
     background-color: #CFD8DC;
   }
 
-#menu__toggle:checked ~ .menu__btn > span {
+  #menu__toggle:checked ~ .menu__btn > span {
   transform: rotate(45deg);
 }
 
-#menu__toggle:checked ~ .menu__btn > span::before {
+  #menu__toggle:checked ~ .menu__btn > span::before {
   top: 0;
   transform: rotate(0);
 }
 
-#menu__toggle:checked ~ .menu__btn > span::after {
+  #menu__toggle:checked ~ .menu__btn > span::after {
   top: 0;
   transform: rotate(90deg);
 }
 
-#menu__toggle:checked ~ .menu__box {
+  #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 0;
 }
@@ -258,7 +258,7 @@ body {
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
-    transition-duration: .25s;
+    transition-duration: 0.25s;
   }
 
   .menu__box {
@@ -277,22 +277,22 @@ body {
   }
 
   .main__title {
-   margin-bottom: 44px;
-   font: bold 30px/39px 'pt_serif', arial, helvetica, sans-serif;
+    margin-bottom: 44px;
+    font: bold 30px/39px 'pt_serif', arial, helvetica, sans-serif;
   }
 
   .main__text {
-   margin-bottom: 25px;
-   width: 275px;
-   height: 57px;
-   font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
+    margin-bottom: 25px;
+    width: 275px;
+    height: 57px;
+    font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .main__button {
-   width: 209px;
-   height: 44px;
-   padding: 14px 16px;
-   font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    width: 209px;
+    height: 44px;
+    padding: 14px 16px;
+    font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 }
 
