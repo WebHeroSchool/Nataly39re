@@ -162,9 +162,9 @@ body {
   box-shadow: 0 0 16px 22px #0056ec inset;
 }
 
-  @media (max-width: 768px) {
-   .doc-header {
-     margin-bottom: 9px;
+@media (max-width: 768px) {
+  .doc-header {
+  margin-bottom: 9px;
   }
 
   .menu {
