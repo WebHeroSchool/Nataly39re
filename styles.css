@@ -8,19 +8,21 @@ p {
 
 body {
   margin: 0;
-  background: linear-gradient(45deg,#6DD5FA,#FFFFFF);
+  background: linear-gradient(45deg, #6dd5fa, #fff);
   background-size: 200% 200%;
   animation: gradient 10s ease-in-out infinite;
 }
 
-/* аниация цветовым градиентом фона страницы*/
+/* аниация цветовым градиентом фона страницы */
 @keyframes gradient {
   0% {
     background-position: 0 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0 50%;
   }
@@ -160,12 +162,12 @@ body {
   box-shadow: 0 0 16px 22px #0056ec inset;
 }
 
-@media (max-width: 768px) {
-  .doc-header {
-    margin-bottom: 9px;
-  }
+  @media (max-width: 768px) {
+    .doc-header {
+      margin-bottom: 9px;
+    }
 
-  .menu {
+    .menu {
     display: none;
   }
 
