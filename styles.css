@@ -163,11 +163,11 @@ body {
 }
 
   @media (max-width: 768px) {
-    .doc-header {
-      margin-bottom: 9px;
-    }
+   .doc-header {
+     margin-bottom: 9px;
+  }
 
-    .menu {
+  .menu {
     display: none;
   }
 
@@ -302,7 +302,7 @@ body {
     padding: 14px 16px;
     font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
- }
+}
 
 @media (min-width: 770px) and (max-width: 1440px) {
   .doc-header {
