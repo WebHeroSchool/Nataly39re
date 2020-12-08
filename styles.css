@@ -8,6 +8,22 @@ p {
 
 body {
   margin: 0;
+  background: linear-gradient(45deg,#6DD5FA,#FFFFFF);
+  background-size: 200% 200%;
+  animation: gradient 10s ease-in-out infinite;
+}
+
+/* аниация цветовым градиентом фона страницы*/
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 .wrapper {
@@ -131,16 +147,17 @@ body {
   width: 270.75px;
   height: 57px;
   font: bold 18px/21px 'Roboto', arial, helvetica, sans-serif;
-  color: #fff;
-  background: #0056ec;
+  color: #000;
+  border: 2px solid #0056ec;
   text-decoration: none;
   border-radius: 4px;
   padding: 16px 22px;
-  transition: opacity 0.5s;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
 .main__button:hover {
-  opacity: 0.5;
+  color: #fff;
+  box-shadow: 0 0 16px 22px #0056ec inset;
 }
 
 @media (max-width: 768px) {
@@ -283,11 +300,15 @@ body {
     padding: 14px 16px;
     font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
-}
+ }
 
 @media (min-width: 770px) and (max-width: 1440px) {
   .doc-header {
     margin-bottom: 83px;
+  }
+
+  .menu__item {
+    font: bold 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .main {
