@@ -35,8 +35,10 @@ body {
   position: relative;
   padding: 38px 0;
   padding-left: 44px;
-  /*width: 146px;
-  height: 32px;*/
+
+  /* width: 146px;
+  height: 32px; */
+
   font: bold 24px/31px 'pt_serif', arial, helvetica, sans-serif;
 }
 
@@ -305,7 +307,6 @@ body {
   }
 }
 
-
 @media (min-width: 770px) and (max-width: 1277px) {
   .wrapper {
   margin: auto;
@@ -345,12 +346,11 @@ body {
   }
 }
 
-
 @media (min-width: 1277px) and (max-width: 1440px) {
 
   .wrapper {
-  margin: 0 100px 0 220px;
-  width: 74%;
+    margin: 0 100px 0 220px;
+    width: 74%;
   }
 
   .doc-header {
