@@ -33,10 +33,10 @@ body {
 
 .logo {
   position: relative;
-  padding: 40px 0;
+  padding: 38px 0;
   padding-left: 44px;
-  width: 146px;
-  height: 32px;
+  /*width: 146px;
+  height: 32px;*/
   font: bold 24px/31px 'pt_serif', arial, helvetica, sans-serif;
 }
 
@@ -64,6 +64,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  word-spacing: 3px;
 }
 
 .hamburger-menu {
@@ -72,7 +73,7 @@ body {
 
 .menu__item {
   position: relative;
-  margin-right: 26px;
+  margin-right: 35px;
   font: bold 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -121,7 +122,7 @@ body {
 }
 
 .main__title {
-  margin: 0 0 40px 0;
+  margin: 55px 0 40px 0;
   font: bold 66px/87px 'pt_serif', arial, helvetica, sans-serif;
 }
 
@@ -133,6 +134,7 @@ body {
   margin: 0 0 41px 0;
   width: 455px;
   height: 52px;
+  word-spacing: 1px;
   font: bold 22px/26px 'Roboto', arial, helvetica, sans-serif;
 }
 
@@ -155,8 +157,13 @@ body {
 }
 
 @media (max-width: 768px) {
+  .wrapper {
+    margin: auto;
+    width: 87%;
+  }
+
   .doc-header {
-    margin-bottom: 9px;
+    margin-bottom: 1px;
   }
 
   .menu {
@@ -186,8 +193,10 @@ body {
     display: flex; /* используем flex для центрирования содержимого */
     align-items: center;  /* центрируем содержимое кнопки */
     position: fixed;
-    width: 28px;
-    height: 28px;
+    top: 20px;
+    right: 24px;
+    width: 25px;
+    height: 40px;
     cursor: pointer;
     z-index: 1;
   }
@@ -270,21 +279,21 @@ body {
   }
 
   .main {
-    padding: 86% 0 0;     /* подгон в Pixel Perfect под макет */
+    padding: 65% 0 0;     /* подгон в Pixel Perfect под макет */
     text-align: center;
-    background-size: 95%; /* подгон в Pixel Perfect под макет */
+    background-size: 90%; /* подгон в Pixel Perfect под макет */
     background-position: top center;
   }
 
   .main__title {
-    margin-bottom: 44px;
+    margin-bottom: 33px;
     font: bold 30px/39px 'pt_serif', arial, helvetica, sans-serif;
   }
 
   .main__text {
-    margin-bottom: 25px;
-    width: 275px;
-    height: 57px;
+    margin-bottom: 26px;
+    width: 85%;
+    height: 100%;
     font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
   }
 
@@ -296,9 +305,15 @@ body {
   }
 }
 
-@media (min-width: 770px) and (max-width: 1440px) {
+
+@media (min-width: 770px) and (max-width: 1277px) {
+  .wrapper {
+  margin: auto;
+  width: 90%;
+  }
+
   .doc-header {
-    margin-bottom: 83px;
+    margin-bottom: 105px;
   }
 
   .menu__item {
@@ -306,17 +321,58 @@ body {
   }
 
   .main {
-    padding: 76px 60% 250px 0;
-    background-size: 55%; /* подгон в Pixel Perfect под макет */
+    padding: 0 53% 250px 0;
+    background-size: 56%; /* подгон в Pixel Perfect под макет */
   }
 
   .main__title {
-    margin-bottom: 44px;
+    margin-bottom: 40px;
     font: bold 50px/66.25px 'pt_serif', arial, helvetica, sans-serif;
   }
 
   .main__text {
-    margin-bottom: 25px;
+    margin-bottom: 37px;
+    width: 367px;
+    height: 43px;
+    font: 500 18px/21.09px 'Roboto', arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    width: 209px;
+    height: 44px;
+    padding: 14px 16px;
+    font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
+  }
+}
+
+
+@media (min-width: 1277px) and (max-width: 1440px) {
+
+  .wrapper {
+  margin: 0 100px 0 220px;
+  width: 74%;
+  }
+
+  .doc-header {
+    margin-bottom: 105px;
+  }
+
+  .menu__item {
+    font: bold 14px/16px 'Roboto', arial, helvetica, sans-serif;
+  }
+
+  .main {
+    padding: 0 53% 250px 0;
+    background-size: 56%; /* подгон в Pixel Perfect под макет */
+  }
+
+  .main__title {
+    margin-bottom: 40px;
+    font: bold 50px/66.25px 'pt_serif', arial, helvetica, sans-serif;
+  }
+
+  .main__text {
+    margin-bottom: 37px;
     width: 367px;
     height: 43px;
     font: 500 18px/21.09px 'Roboto', arial, helvetica, sans-serif;
