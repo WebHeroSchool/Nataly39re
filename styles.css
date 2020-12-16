@@ -308,7 +308,6 @@ body {
 }
 
 @media (min-width: 770px) and (max-width: 1277px) {
-
   .wrapper {
     margin: auto;
     width: 90%;
@@ -348,7 +347,6 @@ body {
 }
 
 @media (min-width: 1277px) and (max-width: 1440px) {
-
   .wrapper {
     margin: 0 100px 0 220px;
     width: 74%;
