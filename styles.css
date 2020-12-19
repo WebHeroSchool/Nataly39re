@@ -293,7 +293,7 @@ body {
   }
 
   .main__text {
-    margin: 0 auto 26px auto; /* так центрируются объекты при display:block*/
+    margin: 0 auto 26px auto; /* так центрируются объекты при display:block */
     width: 85%;
     height: 100%;
     font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
