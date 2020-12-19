@@ -293,16 +293,16 @@ body {
   }
 
   .main__text {
-    margin-bottom: 26px;
+    margin: 0 auto 26px auto; /* так центрируются объекты при display:block*/
     width: 85%;
     height: 100%;
     font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .main__button {
-    width: 209px;
+    width: 210px;
     height: 44px;
-    padding: 14px 16px;
+    padding: 14px 16px 14px 06px;
     font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 }
@@ -310,7 +310,7 @@ body {
 @media (min-width: 770px) and (max-width: 1277px) {
   .wrapper {
     margin: auto;
-    width: 90%;
+    width: 91%;
   }
 
   .doc-header {
@@ -318,6 +318,7 @@ body {
   }
 
   .menu__item {
+    margin: 35px 35px 20px -8px;
     font: bold 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 
@@ -341,15 +342,15 @@ body {
   .main__button {
     width: 209px;
     height: 44px;
-    padding: 14px 16px;
+    padding: 14px 16px 14px 9px;
     font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 }
 
 @media (min-width: 1277px) and (max-width: 1440px) {
   .wrapper {
-    margin: 0 100px 0 220px;
-    width: 74%;
+    margin: auto;
+    width: 68%;
   }
 
   .doc-header {
@@ -357,6 +358,7 @@ body {
   }
 
   .menu__item {
+    margin: 35px 35px 20px -7px;
     font: bold 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 
@@ -380,7 +382,7 @@ body {
   .main__button {
     width: 209px;
     height: 44px;
-    padding: 14px 16px;
+    padding: 14px 16px 14px 9px;
     font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 }
